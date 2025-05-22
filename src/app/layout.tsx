@@ -49,8 +49,3 @@ export default function RootLayout({
     </html>
   );
 }
-/* ページ右上に日本語・英語切り替えボタンを表示 */
-
-
-
-// export { LanguageSwitcher };
