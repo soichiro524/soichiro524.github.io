@@ -1,1 +1,89 @@
-/* @import "tailwindcss"; */
+body {
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    background: #f7f9fb;
+    color: #222;
+    margin: 0;
+    padding: 0;
+    line-height: 1.7;
+}
+
+header {
+    background: linear-gradient(90deg, #4f8cff 0%, #6ee7b7 100%);
+    color: #fff;
+    padding: 2rem 0 1.5rem 0;
+    text-align: center;
+    box-shadow: 0 2px 16px rgba(79, 140, 255, 0.08);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    opacity: 0.9;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 1.5rem 0;
+}
+
+nav a {
+    color: #222;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    transition: background 0.2s;
+}
+
+nav a:hover {
+    background: #e0e7ef;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 4px 24px rgba(79, 140, 255, 0.07);
+    padding: 2.5rem 2rem;
+}
+
+h2, h3, h4 {
+    color: #4f8cff;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+a {
+    color: #4f8cff;
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #2563eb;
+}
+
+ul, ol {
+    padding-left: 1.5rem;
+}
+
+footer {
+    text-align: center;
+    color: #888;
+    font-size: 0.95rem;
+    margin: 3rem 0 1rem 0;
+    padding-top: 1rem;
+    border-top: 1px solid #e5e7eb;
+    background: transparent;
+}

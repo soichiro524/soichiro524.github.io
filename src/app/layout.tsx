@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Link from "next/link";
+import { LangSwitch, Navigation } from "./lang-switch";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,8 +29,29 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <header>
+          {/* <div className="site-header__container"> */}
+          <LangSwitch />
+              <h1>Welcome to Soichiro IMAMURA's homepage!</h1>
+              {/* <p>Researcher in Computer Science</p> */}
+            <Navigation />
+          {/* </div> */}
+        </header>
+        <main>
+          {children}
+        </main>
+        <footer>
+          {/* <div>
+            <p>© 2023 Soichiro Imamura</p>
+            <p>Last updated: 2023-10-01</p>
+          </div> */}
+          </footer>
       </body>
     </html>
   );
 }
+/* ページ右上に日本語・英語切り替えボタンを表示 */
+
+
+
+// export { LanguageSwitcher };
