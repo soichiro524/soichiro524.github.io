@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Link from "next/link";
 import { LangSwitch, Navigation } from "./lang-switch";
 
 const geistSans = Geist({
@@ -32,7 +31,7 @@ export default function RootLayout({
         <header>
           {/* <div className="site-header__container"> */}
           <LangSwitch />
-              <h1>Welcome to Soichiro IMAMURA's homepage!</h1>
+              <h1>Welcome to Soichiro IMAMURA&apos;s homepage!</h1>
               {/* <p>Researcher in Computer Science</p> */}
             <Navigation />
           {/* </div> */}

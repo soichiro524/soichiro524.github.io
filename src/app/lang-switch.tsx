@@ -45,7 +45,7 @@ export function LangSwitch() {
 
 export function Navigation() {
     const pathname = usePathname()
-    const [lang, path] = pathname.substring(1).split('/', 2)
+    const [lang] = pathname.substring(1).split('/')
 
     return (
         <nav>
