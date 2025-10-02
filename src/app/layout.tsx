@@ -16,6 +16,16 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Soichiro IMAMURA's homepage",
   description: "Personal website of Soichiro IMAMURA",
+  verification: {
+    google: "pGvbudkhc59oa5OILYUiNiBo0Jg1zM8l4-Osk-miOzM",
+  },
+  alternates: {
+    canonical: "https://soichiro524.github.io/",
+    languages: {
+      "en": "https://soichiro524.github.io/en/about",
+      "ja": "https://soichiro524.github.io/ja/about",
+    },
+  },
 };
 
 export default function RootLayout({
