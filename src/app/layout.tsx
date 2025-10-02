@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   title: "Soichiro IMAMURA's homepage",
   description: "Personal website of Soichiro IMAMURA",
   verification: {
-    google: "pGvbudkhc59oa5OILYUiNiBo0Jg1zM8l4-Osk-miOzM",
+    google: "KR_xQRNo2wyp5Y_WT0mf60O5gDBWR4pYxnvWwrpktUg",
   },
   alternates: {
     canonical: "https://soichiro524.github.io/",
