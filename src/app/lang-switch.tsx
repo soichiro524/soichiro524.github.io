@@ -50,6 +50,7 @@ export function Navigation() {
     return (
         <nav>
               <Link href={`/${lang}/about`}>About</Link>
+              <Link href={`/${lang}/papers`}>Papers</Link>
               <Link href={`/${lang}/presentations`}>Presentations</Link>
         </nav>
     )
